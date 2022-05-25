@@ -1,18 +1,16 @@
 package lab_02;
 
-import com.sun.jdi.FloatType;
-
 import java.util.Scanner;
 
-public class lab2phay1 {
+public class lab2cham1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please input Height: ");
-        int Height = scanner.nextInt();
-        System.out.println("Please input Weight: ");
-        int Weight = scanner.nextInt();
+            System.out.println("Điền chiều cao của bạn: ");
+        float Height = scanner.nextFloat();
+            System.out.println("Điền số cân nặng của bạn: ");
+        float Weight = scanner.nextFloat();
         float Total = (float) Weight / (Height * 2);
-        System.out.println("BMI: " + Total);
+            System.out.println("Chỉ số BMI của bạn là: " + Total);
         if (Total < 18.5) {
             System.out.println("Underweight");
         } else if (Total >= 18.5 && Total <= 24.9) {

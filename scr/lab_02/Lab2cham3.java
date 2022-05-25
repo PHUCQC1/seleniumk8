@@ -2,13 +2,13 @@ package lab_02;
 
 import java.util.Scanner;
 
-public class Suggest {
+public class Lab2cham3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Điền chiều cao của bạn: ");
-        int Height = scanner.nextInt();
+        float Height = scanner.nextFloat();
         System.out.println("Điến số cân nặng của bạn: ");
-        int Weight = scanner.nextInt();
+        float Weight = scanner.nextFloat();
         float Total = (float) Weight / (Height * 2);
         System.out.println("Chỉ số BMI của bạn là: " + Total);
         if (Total < 18.5) {
