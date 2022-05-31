@@ -2,7 +2,7 @@ package lab_02;
 
 import java.util.Scanner;
 
-public class lab2cham1 {
+public class Lab2cham1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
             System.out.println("Điền chiều cao của bạn: ");
